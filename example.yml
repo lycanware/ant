@@ -1,0 +1,19 @@
+
+actions:
+    # Certificate for HTTPS and digital signing of JWTs
+  - action: copy
+    src: cert
+    dst: bin/app/cert
+    dst-clear-first: true
+
+    # Application JSON config files
+  - action: copy
+    src: app/config
+    dst: bin/app/config
+    dst-clear-first: true
+
+    # HTML templates
+  - action: copy
+    src: app/templates
+    dst: bin/app/templates
+    dst-clear-first: true
