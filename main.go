@@ -8,7 +8,6 @@ import (
 	"strings"
 
 	"github.com/lycanware/toolkit-go/filesys/copy"
-
 	"github.com/urfave/cli"
 )
 
@@ -86,7 +85,7 @@ func actionCopy(i actionItem) {
 		}
 	}
 
-	if errList, err = copy.Dir(i.Src, i.Dst); err != nil {
+	if errList, err = copy.Copy(i.Src, i.Dst); err != nil {
 		printLog(err)
 		return
 	}
