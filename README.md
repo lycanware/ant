@@ -35,7 +35,7 @@ Use the following command to run the tool:
 
 ## Environment Variables
 If the CLI is run from an IDE that passes environment variables as a string, the tool will automatically resolve them.
-The regex used to detect environment variables is `$[A-Z_]+[A-Z0-9_]*` following: (opengroup.org)[https://pubs.opengroup.org/onlinepubs/9699919799/]
+The regex used to detect environment variables is `$[A-Z_]+[A-Z0-9_]*` following: [opengroup.org](https://pubs.opengroup.org/onlinepubs/9699919799/)
 
 ## Author
 Craig Sherlock
